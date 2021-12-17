@@ -10,7 +10,7 @@
    
    // attribute selector "^" starts with
    [class^="col-"] {
-      background-color: hsl(0, 0%, 80%);
+      // background-color: hsl(0, 0%, 80%);
       float: left;
 
       &:not(:last-child) {

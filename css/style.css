@@ -65,49 +65,49 @@ body {
 
 .my {
   margin: 1.5rem 0; }
-  .my-sm {
+  .my-1 {
     margin: 1rem 0; }
-  .my-md {
+  .my-2 {
     margin: 2rem 0; }
-  .my-lg {
+  .my-3 {
     margin: 3rem 0; }
 
-.mb-lg {
+.mb-3 {
   margin-bottom: 3.5rem; }
 
-.mb-md {
+.mb-2 {
   margin-bottom: 2.5rem; }
 
-.mb-sm {
+.mb-1 {
   margin-bottom: 1.5rem; }
 
 .mx {
   margin: 0 1.5rem; }
-  .mx-sm {
+  .mx-1 {
     margin: 0 1rem; }
-  .mx-md {
+  .mx-2 {
     margin: 0 2rem; }
-  .mx-lg {
+  .mx-3 {
     margin: 0 3rem; }
   .mx-auto {
     margin: 0 auto; }
 
 .py {
   padding: 1.5rem 0; }
-  .py-sm {
+  .py-1 {
     padding: 1rem 0; }
-  .py-md {
+  .py-2 {
     padding: 2rem 0; }
-  .py-lg {
+  .py-3 {
     padding: 3rem 0; }
 
 .px {
   padding: 0 1.5rem; }
-  .px-sm {
+  .px-1 {
     padding: 0 1rem; }
-  .px-md {
+  .px-2 {
     padding: 0 2rem; }
-  .px-lg {
+  .px-3 {
     padding: 0 3rem; }
 
 .u-center-text {
@@ -176,7 +176,6 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: #cccccc;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
@@ -256,6 +255,23 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
+
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: .2rem;
+    position: absolute; }
+    .composition__photo--p1 {
+      top: 0;
+      left: 0; }
+    .composition__photo--p2 {
+      top: 0;
+      right: 0; }
+    .composition__photo--p3 {
+      bottom: 0;
+      left: 0; }
 
 .section-about {
   background-color: #f7f7f7;
